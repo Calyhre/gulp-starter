@@ -2,7 +2,7 @@
   "name": "gulp-starter",
   "version": "0.1.1",
   "description": "Gulp starter with common tasks and scenarios",
-  "main": "build/app.js",
+  "main": "www/app.js",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -11,6 +11,7 @@
     "tests"
   ],
   "devDependencies": {
-    "angular-mocks": "~1.2.18"
+    "angular-mocks": "~1.2.18",
+    "ionic": "driftyco/ionic-bower#1.0.0-beta.11"
   }
 }

@@ -7,7 +7,7 @@ gulp.task('compass', function() {
 	return gulp.src('./src/sass/*.sass')
 		.pipe(compass({
 			config_file: 'compass.rb',
-			css: 'build',
+			css: 'www',
 			sass: 'src/sass'
 		}))
 		.on('error', handleErrors);

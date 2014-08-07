@@ -1,8 +1,8 @@
 preferred_syntax = :sass
 http_path = '/'
-css_dir = 'build'
+css_dir = 'www'
 sass_dir = 'src/sass'
-images_dir = 'build/images'
-fonts_dir = 'build/fonts'
+images_dir = 'www/images'
+fonts_dir = 'www/fonts'
 relative_assets = true
 line_comments = true
